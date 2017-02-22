@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "@google-cloud/speech": "^0.6.0",
-    "dotenv": "^4.0.0"
+    "dotenv": "^4.0.0",
+    "linear16": "^1.0.1"
   }
 }
