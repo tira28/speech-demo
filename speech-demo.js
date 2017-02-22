@@ -8,17 +8,18 @@ const Speech = require('@google-cloud/speech');
 // Your Google Cloud Platform project ID
 const projectId = 'tira-speech-abn';
 
-// Instantiates a client
-const speechClient = Speech({
-    projectId: projectId
-});
+
 
 // The name of the audio file to transcribe
 const fileName = './resources/audio.raw';
 
 
-
 /* Synchronous
+
+// Instantiates a client
+const speechClient = Speech({
+ projectId: projectId
+});
 
 // The audio file's encoding and sample rate
 const options = {
