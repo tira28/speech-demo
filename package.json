@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@google-cloud/speech": "^0.6.0"
+    "@google-cloud/speech": "^0.6.0",
+    "dotenv": "^4.0.0"
   }
 }

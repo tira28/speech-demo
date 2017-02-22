@@ -2,11 +2,14 @@
  * Created by yudistira on 2/22/17.
  */
 
+require('dotenv').config();
+
 // Imports the Google Cloud client library
 const Speech = require('@google-cloud/speech');
 
 // Your Google Cloud Platform project ID
-const projectId = 'tira-speech-abn';
+const projectId = process.env.PROJECT_ID;
+console.log('project-id: ', projectId);
 
 
 
