@@ -62,7 +62,7 @@ function getResults(results){
 };
 
 function getTranscription(transcription){
-    console.log(`Transcription: $(transcription)`);
+    console.log('Transcription: ', transcription);
 };
 
 
